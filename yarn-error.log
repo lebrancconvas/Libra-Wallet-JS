@@ -1,0 +1,43 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add libra-kulap
+
+PATH: 
+  C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files\Microsoft MPI\Bin\;C:\tools\ruby26\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python37\Scripts\;C:\Python37\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\tools\php73;C:\Go\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Program Files\Rust stable GNU 1.32\bin;C:\ProgramData\chocolatey\lib\Elixir/bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;D:\flutter\bin;D:\masm32\bin;C:\Program Files (x86)\vim\vim80;C:\Program Files\postgresql\10\bin;C:\Program Files (x86)\sbt\bin;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\OpenJDK\jdk-11.0.2\bin;D:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\Dart\dart-sdk\bin;D:\Program Files\Git\cmd;D:\Program Files\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Yarn\bin\;C:\Users\User\Anaconda3;C:\Users\User\Anaconda3\Library\mingw-w64\bin;C:\Users\User\Anaconda3\Library\usr\bin;C:\Users\User\Anaconda3\Library\bin;C:\Users\User\Anaconda3\Scripts;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;D:\Program Files\Microsoft VS Code\bin;C:\Users\User\go\bin;C:\Users\User\AppData\Roaming\Composer\vendor\bin;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\tools\dart-sdk\bin;C:\Users\User\AppData\Roaming\Pub\Cache\bin;C:\ProgramData\chocolatey\lib\ghc\tools\ghc-8.6.2\bin;D:\flutter\bin;D:\masm32\bin;C:\Users\User\AppData\Local\Keybase\;C:\tools\neovim\Neovim\bin;C:\Program Files (x86)\clisp-2.49;D:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\heroku\bin;C:\Users\User\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/libra-kulap: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65200:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:129590:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130562:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130484:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1103:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "librawalletjs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/lebrancconvas/Libra-Wallet-JS.git",
+    "author": "lebrancconvas <lebranccconvas@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
